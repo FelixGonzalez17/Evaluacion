@@ -1,0 +1,110 @@
+body {
+    background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+  }
+  
+  .container {
+    max-width: 960px;
+  }
+  
+  .pricing-header {
+    max-width: 800px;
+  }
+
+  .pricing-header {
+    margin-top: 50px;
+  }
+
+  body {
+    background-image: url(./Imagenes/1.png); 
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center; 
+  }
+  
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.8); 
+  }
+  
+  .container {
+    position: relative; 
+    z-index: 1; 
+    color: white; 
+  }
+  
+  header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: -1; 
+  }
+
+  .navbar {
+    background-color: #000; 
+    opacity: 1; 
+  }
+
+  .footer-text {
+    position: fixed; 
+    bottom: 10px; 
+    left: 10px; 
+    color: rgb(255, 255, 255); 
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 5px 10px;
+    border-radius: 5px; 
+    font-size: 14px; 
+    z-index: 1000; 
+  }
+
+.pricing-header h1 {
+    color: #ff9022;
+    font-size: 3rem; 
+    font-weight: bold; 
+  }
+  
+  .pricing-header p {
+    color: #000000; 
+    font-size: 1.2rem;
+    line-height: 1.6; 
+  }
+  
+  .card-header h4 {
+    color: #000000; 
+    font-size: 1.5rem; 
+    font-weight: bold; 
+  }
+  
+  .card-title.pricing-card-title {
+    color: #000000; 
+    font-size: 2rem; 
+    font-weight: bold; 
+  }
+
+  .card-body ul li {
+    color: #000000; 
+    font-size: 1rem; 
+    margin-bottom: 5px; 
+  }
+
+  .btn-primary {
+    background-color: hsl(8, 85%, 26%); 
+    border-color: #000000; 
+    color: #ffffff; 
+  }
+  
+  .col {
+    max-width: 400px; 
+    margin: 0 auto; 
+  }
+  
+  .card {
+    width:90%; 
+  }
+
+  .col {
+    background-color: rgba(0, 0, 0, 0); 
+    margin-bottom: 250px;   
+  }
